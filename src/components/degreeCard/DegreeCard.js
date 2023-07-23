@@ -47,13 +47,22 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
-                return (
-                  <p className="content-list" style={{ color: theme.text }}>
+              {degree.descriptions && degree.descriptions.length > 0 ? (
+                degree.descriptions.map((sentence, index) => (
+                  <p
+                    key={index}
+                    className="content-list"
+                    style={{ color: theme.text }}
+                  >
                     {sentence}
                   </p>
-                );
-              })}
+                ))
+              ) : (
+                <p className="content-list" style={{ color: theme.text }}>
+                  No descriptions available.
+                </p>
+              )}
+
               {degree.website_link && (
                 <a
                   href={degree.website_link}
