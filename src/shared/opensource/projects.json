@@ -28,78 +28,94 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
+      "name": "Ecommerce-Website",
       "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "url": "https://github.com/phirojshah/E-Commerce",
+      "description": "🔥 Ecommerce Website built with  react redux toolkit ",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "JavaScript",
+          "iconifyClass": "logos-redux"
+        },  {
+          "name": "JavaScript",
+          "iconifyClass": "logos-react"
+        },{
+          "name": "JavaScript",
+          "iconifyClass": "logos-mongodb"
         }
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
+      "name": "House-Rent",
       "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "url": "https://github.com/phirojshah/House-Rent",
+      "description": "🔥 House Rent Website built with  MERN stack ",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "react",
+          "iconifyClass": "logos-react"
         },
         {
           "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "iconifyClass": "logos-mongodb"
+        }, {
+          "name": "CSS",
+          "iconifyClass": "logos-tailwindcss-icon"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "nodejs",
+          "iconifyClass": "simple-icons:nodedotjs"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "express",
+          "iconifyClass": "logos-express"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "netflix-clone",
+      "name": "Netflix",  "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/phirojshah/netflix",
+      "description": "🔥 Netflix clone built with react and integration with rapidapi",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "rapidapi",
+          "iconifyClass": "logos-rapidapi"
+        }, {
+          "name": "react",
+          "iconifyClass": "logos-react"
+        },{
+          "name": "styled-components",
+          "iconifyClass": "logos-styled-components"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
-      "name": "react-awesome-loaders",
-      "createdAt": "2021-01-06T06:36:41Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-loaders",
-      "description": "🚀  High quality, super responsive and completely customisable Loading Animations to insert into your website with single line of code.",
+      "name": "AI-Summerizer",  "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/phirojshah/AI-Summerizer",
+      "description": "🔥 AI Summerizer is a web app that summarizes your text , articles",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "nextjs",
+          "iconifyClass": "logos-nextjs"
+        }, {
+          "name": "rapidapi",
+          "iconifyClass": "logos-rapidapi"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
+      "name": "TextUtils", 
       "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "url": "https://github.com/phirojshah/TextUtils",
+      "description": "🔥 TextUtils is a web app that counts words ,letters and many more conversion",
       "isFork": false,
       "languages": [
         {
