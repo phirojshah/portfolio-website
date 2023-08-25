@@ -192,6 +192,14 @@ const skills = {
           },
         },
         {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "simple-icons:ethereum",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
           skillName: "Web3.js",
           fontAwesomeClassname: "simple-icons:webgl",
           style: {
@@ -207,6 +215,11 @@ const skills = {
           },
         },
         {
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "simple-icons:bitcoin",
+          color: "black",
+        },
+        {
           skillName: "Truffle",
           fontAwesomeClassname: "simple-icons:truffle",
           style: {
@@ -220,6 +233,7 @@ const skills = {
           color: "black",
           image: "https://fontawesome.com/v5/icons/hard-hat?f=classic&s=solid",
         },
+
         {
           skillName: "Ganache",
           fontAwesomeClassname: "simple-icons:ganache",
@@ -697,12 +711,12 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://phirojsah.com.np/",
+    link: "https://phirojshah.vercel.app/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Janakpur, Mahottari - 45700",
+    subtitle: "Janakpur, Mahottari - 45700 , NEPAL",
     locality: "Janakpur",
     country: "NP",
     region: "Madhesh",
