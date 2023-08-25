@@ -370,18 +370,36 @@ const competitiveSites = {
 
 const degrees = [
   {
+    title: "Kathmandu Model Collage,Nepal ",
+    descriptions: [
+      "Sited at the heart of Kathmandu metropolis, Bagbazar, KMSS alias KMC are a premier and time-tested academic hub for the aspirants seeking top-notch higher education in Nepal. ",
+    ],
+  },
+  {
+    title: "Kathmandu Model Collage,Nepal ",
+    subtitle: "+2, Science",
+    logo_path: "kmc_logo.png",
+    alt_name: "Kathmandu Model Collage",
+    duration: "2019 - 2021",
+    descriptions: ["⚡ I have taken varity of courses of +2 Science there."],
+    website_link: "https://ktmmodelcollege.edu.np/",
+  },
+  {
     title: "Kathmandu University,Nepal ",
+    descriptions: [
+      " Kathmandu University (KU) is an autonomous, not-for-profit, self-funding public institution established by an Act of Parliament in December 1991. The mission statement of the University is “to provide quality education for leadership”. The vision is “to become a world-class university devoted to bringing knowledge and technology to the service of mankind ",
+    ],
   },
   {
     title: "Kathmandu University",
     subtitle: "BE.Computer Engineering",
-    logo_path: "iu_logo.png",
+    logo_path: "ku_logo.png",
     alt_name: "Kathmandu University",
     duration: "2021 - 2025",
     descriptions: [
-      "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-      "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-      "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+      "⚡ Leveraging my strong foundation in blockchain technology and Web development, I have immersed myself in a diverse array of courses, including Blockchain fundamentals, Solidity programming, and Web3 integration, MERN development etc.",
+      "⚡ Apart from this, I have also done different real-world project. As part of it, I have worked on creating different fully-functional website",
+      // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
     ],
     website_link: "https://ku.edu.np/",
   },
@@ -390,22 +408,31 @@ const degrees = [
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Programming with javascript",
+      subtitle: "- Meta",
+      logo_path: "meta.jpg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://www.coursera.org/account/accomplishments/certificate/9E336TS7ALQC",
+      alt_name: "Meta",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Blockchain Specialization",
+      subtitle: "- SecOps",
+      logo_path: "secops_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://photos.google.com/album/AF1QipMiIQ2NfAXHr3Q7WFmyjpoJa5qAAMXmC3WzxN4R/photo/AF1QipNk5P6iCSxyqQisQSs2aZzUDDVsiYYs0FFWl6rG",
+      alt_name: "blockchain",
       color_code: "#00000099",
+    },
+    {
+      title: "Fullstack Development",
+      subtitle: "- Coursera",
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/ZN9K8DWNR6WJ",
+      alt_name: "Coursera",
+      color_code: "#2A73CC",
     },
     {
       title: "ML on GCP",
@@ -461,15 +488,7 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
+
     {
       title: "Kuberenetes on GCP",
       subtitle: "- Qwiklabs",
@@ -716,26 +735,25 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Next, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Next, React, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://phirojsah.com.np/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+    subtitle: "Janakpur, Mahottari - 45700",
+    locality: "Janakpur",
+    country: "NP",
+    region: "Madhesh",
+    postalCode: "44600",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/WvKFhcLwtd4qmMSq9",
   },
   phoneSection: {
     title: "",
