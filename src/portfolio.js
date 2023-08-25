@@ -78,51 +78,6 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -205,6 +160,61 @@ const skills = {
       ],
     },
     {
+      title: "Blockchain Development",
+      fileName: "BlockchainImg",
+      skills: [
+        "⚡ Solidity smart contract development for decentralized applications on the Ethereum blockchain",
+        "⚡ Proficiency in Ethereum development tools and frameworks like Truffle, Hardhat, and Remix",
+        "⚡ Integrating blockchain solutions with front-end applications using web3.js or ethers.js",
+        "⚡ Developing and deploying ERC-20, ERC-721, and other token standards",
+        "⚡ Understanding of DeFi protocols and concepts like liquidity pools, staking, and yield farming",
+        "⚡ Collaboraing with cross-functional teams to ideate and develop innovative decentralized solutions",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Web3.js",
+          fontAwesomeClassname: "simple-icons:webgl",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Ethers.js",
+          fontAwesomeClassname: "simple-icons:ethereum",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Truffle",
+          fontAwesomeClassname: "simple-icons:truffle",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Hardhat",
+          fontAwesomeClassname: "simple-icons:hardhat",
+          color: "black",
+          image: "https://fontawesome.com/v5/icons/hard-hat?f=classic&s=solid",
+        },
+        {
+          skillName: "Ganache",
+          fontAwesomeClassname: "simple-icons:ganache",
+          color: "black",
+        },
+      ],
+    },
+    {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -221,13 +231,7 @@ const skills = {
             color: "#4285F4",
           },
         },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
+
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -300,13 +304,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:adobeillustrator",
           style: {
             color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
