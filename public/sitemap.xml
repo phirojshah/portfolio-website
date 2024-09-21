@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://phirojsah.com.np/</loc>
+    <lastmod>2024-09-21</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Education Page -->
+  <url>
+    <loc>https://phirojsah.com.np/education</loc>
+    <lastmod>2024-09-21</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://phirojsah.com.np/contact</loc>
+    <lastmod>2024-09-21</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://phirojsah.com.np/projects</loc>
+    <lastmod>2024-09-21</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Error Page -->
+  <url>
+    <loc>https://phirojsah.com.np/*</loc>
+    <lastmod>2024-09-21</lastmod>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
