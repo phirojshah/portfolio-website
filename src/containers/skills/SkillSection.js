@@ -7,6 +7,7 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import BlockchainImg from "./BlockchainImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -15,6 +16,8 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "BlockchainImg")
+    return <BlockchainImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 
@@ -29,7 +32,7 @@ class SkillSection extends Component {
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
-                    alt="Ashutosh is Analysing Data"
+                    alt=""
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />

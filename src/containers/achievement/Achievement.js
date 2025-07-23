@@ -2,12 +2,13 @@ import React from "react";
 import "./Achievement.css";
 import AchivementCard from "../../components/achievementCard/AchivementCard";
 import { achievementSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 
 export default function Achievement() {
-  // function openUrlInNewTab(url) {
-  //   var win = window.open(url, "_blank");
-  //   win.focus();
-  // }
+  if (!achievementSection.achievements) {
+    return null;
+  }
+
   return (
     <div className="main" id="achievements">
       <div className="achievement-main-div">
@@ -20,16 +21,18 @@ export default function Achievement() {
           </p>
         </div>
         <div className="achievement-cards-div">
-          {achievementSection.achivementsCards.map((card) => {
+          {achievementSection.achievements.map((achievement) => {
             return (
-              <AchivementCard
-                cardInfo={{
-                  title: card.title,
-                  description: card.subtitle,
-                  image: card.image,
-                  footer: card.footerLink,
-                }}
-              />
+              <Fade bottom duration={2000} distance="20px" key={achievement.id}>
+                <AchivementCard
+                  cardInfo={{
+                    title: achievement.title,
+                    description: achievement.subtitle,
+                    subtitle: achievement.description,
+                    date: achievement.date,
+                  }}
+                />
+              </Fade>
             );
           })}
         </div>

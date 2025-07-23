@@ -1,18 +1,48 @@
 .educations-header {
-  font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.educations-body-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.educations-header-div {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.experience-cards-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 @media (max-width: 1380px) {
   .educations-header {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 768px) {
+  .educations-body-div {
+    flex-direction: column;
+  }
   .educations-header {
     font-size: 30px;
+    text-align: center;
+  }
+  .educations-header-div {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .experience-cards-div {
+    flex-direction: column;
   }
 }
